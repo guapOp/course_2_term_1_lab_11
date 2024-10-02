@@ -121,6 +121,7 @@ namespace lab_11_code
             if (!double.TryParse(textBoxWorked.Text, out _))
             {
                 MessageBox.Show($"В поле {labelWorked.Text} введено некорректное значение");
+
                 return false;
             }
 
